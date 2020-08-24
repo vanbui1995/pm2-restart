@@ -8,6 +8,6 @@ setTimeout(function worker() {
   pm2.restart('prerender', function(...rest) {
     console.log(...rest);
   });
-  setTimeout(worker, 7200000);
-  }, 7200000);
+  setTimeout(worker, 3600000);
+  }, 3600000);
 });
